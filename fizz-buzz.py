@@ -5,18 +5,25 @@
  * - Múltiplos de 3 por la palabra "fizz".
  * - Múltiplos de 5 por la palabra "buzz".
  * - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
+ ##########################################################################
+ * Write a program that shows through the console (with a print) the
+ * numbers from 1 to 100 (both included and with a line break between
+ * each print), replacing the following:
+ * - Multiples of 3 for the word "fizz".
+ * - Multiples of 5 for the word "buzz".
+ * - Multiples of 3 and 5 at the same time for the word "fizzbuzz".
 """
 
 def fizzbuzz(start, end):
     for unit in range(start,(end+1)):
         if unit%5 == 0 and unit%3 == 0:
-            print("fizz-buzz")
+            print("fizz-buzz\n")
         elif unit%3 == 0:
-            print("fizz")
+            print("fizz\n")
         elif unit%5 == 0:
-            print("buzz")
+            print("buzz\n")
         else:
-            print(unit)
+            print(unit\n)
 
 
 fizzbuzz(1,100)
