@@ -23,7 +23,7 @@ def fizzbuzz(start, end):
         elif unit%5 == 0:
             print("buzz\n")
         else:
-            print(unit\n)
+            print(f"{unit}\n")
 
 
 fizzbuzz(1,100)
