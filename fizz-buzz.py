@@ -6,3 +6,17 @@
  * - Múltiplos de 5 por la palabra "buzz".
  * - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
 """
+
+def fizzbuzz(start, end):
+    for unit in range(start,(end+1)):
+        if unit%5 == 0 and unit%3 == 0:
+            print("fizz-buzz")
+        elif unit%3 == 0:
+            print("fizz")
+        elif unit%5 == 0:
+            print("buzz")
+        else:
+            print(unit)
+
+
+fizzbuzz(1,100)
